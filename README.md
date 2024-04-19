@@ -2,8 +2,19 @@
 工具类
 
 ```bash
-npm i j-eventemitter
+npm i j-loadjs
 ```
 
-# API
-[API](docs/api/index.md)
+```html
+<script src="../index.js"></script>
+```
+或者
+```js
+const jLoadJSModules=require('j-loadjs');
+```
+
+```js
+
+const JEditor = await jLoadJSModules.loadJS('https://jtcospublic.ciccten.com/jt-design/dist/index.esm.js?2024', true);// 第二个参数为是否用module方式加载
+
+```
