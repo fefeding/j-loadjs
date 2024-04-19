@@ -1,5 +1,5 @@
-# j-util
-工具类
+# j-loadjs
+动态加载js，一般用来加载url形式的js,也可以用module方式.
 
 ```bash
 npm i j-loadjs
