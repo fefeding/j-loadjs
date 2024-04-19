@@ -1,6 +1,6 @@
 {
   "name": "j-loadjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "事件 emit",
   "main": "./index.js",
   "types": "./index.d.ts",
