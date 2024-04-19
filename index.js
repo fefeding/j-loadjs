@@ -21,7 +21,7 @@ jModules.loadJS = jModules.loadJS || async function loadJS(url, isModule = false
         if(isModule) {
             script.type = 'module';
             script.innerHTML = `
-                import curModule from '${url}';
+                import * as curModule from '${url}';
                 if(window.j_loadjs_modules) {
                     window.j_loadjs_modules.cache['${url}'] = curModule;
                     window.j_loadjs_modules.loadSuccess('${url}', curModule);

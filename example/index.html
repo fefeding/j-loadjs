@@ -29,9 +29,9 @@
 <script src="../index.js"></script>
 <script>
 	async function render(data) {
-		const JEditor = await jLoadJSModules.loadJS('https://jtcospublic.ciccten.com/jt-design/dist/index.esm.js?2024', true);
+		const module = await jLoadJSModules.loadJS('https://jtcospublic.ciccten.com/jt-design/dist/index.esm.js?2024', true);
 
-		const editor = await JEditor.renderDom(data, {
+		const editor = await module.JEditor.renderDom(data, {
 			data: {
 				// 指定把dom缩放到大小，如果同时指定width和height，优先用width缩放
 				width: 600

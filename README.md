@@ -15,6 +15,8 @@ const jLoadJSModules=require('j-loadjs');
 
 ```js
 
-const JEditor = await jLoadJSModules.loadJS('https://jtcospublic.ciccten.com/jt-design/dist/index.esm.js?2024', true);// 第二个参数为是否用module方式加载
+const module = await jLoadJSModules.loadJS('https://xxx.com/jt-design/dist/index.esm.js?2024', true);// 第二个参数为是否用module方式加载
+
+
 
 ```
