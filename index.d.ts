@@ -1,6 +1,6 @@
 declare var window: Window & typeof globalThis;
 
-export type jModule = {
+const jModule = {
     /**
      * 加载远程js
      * @param url JS的地址
