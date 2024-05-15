@@ -1,5 +1,5 @@
 {
-  "name": "j-loadjs",
+  "name": "@fefeding/loadjs",
   "version": "1.0.6",
   "description": "事件 emit",
   "main": "./index.js",
@@ -17,6 +17,10 @@
     "docs:dev": "npm run api && vitepress dev",
     "docs:build": "npm run api && vitepress build",
     "docs:preview": "npm run api && vitepress preview"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "express": "^4.18.2",
